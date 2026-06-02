@@ -1,4 +1,4 @@
-import { Foo } from "./constants.ts";
+import { Foo } from "./constants";
 // export function Home() { // npm rum build fails
 export default function Home() { // also fails
   return <div>{Foo.BAR}</div> // fails
